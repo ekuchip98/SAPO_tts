@@ -1,0 +1,14 @@
+
+£
+java:S1186%"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(íéİñÿÿÿÿÿ8Ğ©îúä.
+`
+java:S1128	"CRemove this unused import 'javax.persistence.EntityManagerFactory'.(îÜğ8‡ÒÇ…å.
+S
+java:S1128"1Remove this unused import 'javax.sql.DataSource'.(ÉòÂ¿úÿÿÿÿ8‡ÒÇ…å.
+j
+java:S1128"HRemove this unused import 'org.example.repository.IInventoryRepository'.(ºˆö¯üÿÿÿÿ8‡ÒÇ…å.
+\
+java:S1128
+":Remove this unused import 'javax.persistence.Persistence'.(›²ö¾ıÿÿÿÿ8‡ÒÇ…å.
+q
+java:S2229,"T"findAll's" @Transactional requirement is incompatible with the one for this method.(™°¯Ê8”ûä.

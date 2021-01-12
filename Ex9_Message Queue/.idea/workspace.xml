@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d8b381af-b90d-4bb7-9daf-266a5701bb87" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Ex9_Kafaka/src/main/java/com/sapo/edu/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex9_Kafaka/src/main/java/com/sapo/edu/api/KafakaAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex9_Kafaka/src/main/java/com/sapo/edu/api/TestAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex9_Kafaka/src/main/java/com/sapo/edu/config/KafkaConsumerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex9_Kafaka/src/main/java/com/sapo/edu/config/KafkaProducerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex9_Kafaka/src/main/java/com/sapo/edu/convert/IConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex9_Kafaka/src/main/java/com/sapo/edu/convert/ProductConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex9_Kafaka/src/main/java/com/sapo/edu/convert/ProductNewConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex9_Kafaka/src/main/java/com/sapo/edu/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex9_Kafaka/src/main/java/com/sapo/edu/entity/ProductEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex9_Kafaka/src/main/java/com/sapo/edu/entity/ProductNewEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex9_Kafaka/src/main/java/com/sapo/edu/exception/ControllerExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex9_Kafaka/src/main/java/com/sapo/edu/exception/ErrorMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex9_Kafaka/src/main/java/com/sapo/edu/exception/ExceptionUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex9_Kafaka/src/main/java/com/sapo/edu/model/BaseModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex9_Kafaka/src/main/java/com/sapo/edu/model/ProductModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex9_Kafaka/src/main/java/com/sapo/edu/model/ProductNewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex9_Kafaka/src/main/java/com/sapo/edu/repository/ProductNewRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex9_Kafaka/src/main/java/com/sapo/edu/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex9_Kafaka/src/main/java/com/sapo/edu/service/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex9_Kafaka/src/main/java/com/sapo/edu/service/impl/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex9_Kafaka/src/main/java/com/sapo/edu/service/kafaka/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex9_Kafaka/src/main/java/com/sapo/edu/service/kafaka/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex9_Kafaka/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex9_Kafaka/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex7_Restful_API_Spring/Ex7_RestfulAPI_Spring/.idea/sonarlint/issuestore/1/1/11bf14c5018472efa6dc9f2e95ada09efc586e36" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex7_Restful_API_Spring/Ex7_RestfulAPI_Spring/.idea/sonarlint/issuestore/4/a/4a56feb77a4d06a5ea09759ffcef1e92a47c62f6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex7_Restful_API_Spring/Ex7_RestfulAPI_Spring/.idea/sonarlint/issuestore/6/a/6a4352f894b116c68d2ba7f1e5c897e9f7fe3fd0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex7_Restful_API_Spring/Ex7_RestfulAPI_Spring/.idea/sonarlint/issuestore/8/1/811a16da08cd665b845e1b3287f107f5de708aa1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex7_Restful_API_Spring/Ex7_RestfulAPI_Spring/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex7_Restful_API_Spring/Ex7_RestfulAPI_Spring/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex8_Spring Security/Ex8_SpringSecurity/.idea/sonarlint/issuestore/1/1/1166ffd568e14171e7183fbcf51184754b1a9e83" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex8_Spring Security/Ex8_SpringSecurity/.idea/sonarlint/issuestore/1/1/1166ffd568e14171e7183fbcf51184754b1a9e83" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex8_Sql_Injection/Ex8_Sql_Injection.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex8_Sql_Injection/Ex8_Sql_Injection.docx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1m30KQLXTU1QHXiIUbTFqpqy1rv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d8b381af-b90d-4bb7-9daf-266a5701bb87" name="Default Changelist" comment="" />
+      <created>1608706902321</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608706902321</updated>
+      <workItem from="1608706910730" duration="115000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1608706993885">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1608706993885" />
+    <state x="65" y="24" key="new project wizard" timestamp="1608707022302">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="24" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1608707022302" />
+  </component>
+</project>

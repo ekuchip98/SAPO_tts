@@ -1,0 +1,9 @@
+moneyatm: 1200000
+
+logging:
+  file: C:\Users\MyComputer\Desktop\spring-dependency-injection\src\out\application.log
+
+
+spring:
+  profiles:
+    active: test, test1

@@ -1,0 +1,98 @@
+{
+	"id": "1a7a563f-3cc9-415f-887f-4ac305f7f437",
+	"name": "STORE",
+	"description": "",
+	"auth": null,
+	"events": null,
+	"variables": [],
+	"order": [
+		"7688b76a-0ebc-45cd-bb36-912f60b63b8d",
+		"02c8e138-5760-44e9-9fa9-e71abd2fcb3a",
+		"305558c0-ca4f-43fd-b735-75f41699d560",
+		"cf622838-ac0c-4bf8-9309-8202f9c7744a"
+	],
+	"folders_order": [],
+	"protocolProfileBehavior": {},
+	"folders": [],
+	"requests": [
+		{
+			"id": "02c8e138-5760-44e9-9fa9-e71abd2fcb3a",
+			"name": "GET ​/store​/order​/{orderId}  (Find purchase order by ID)",
+			"url": "https://petstore.swagger.io/v2/store/order/5",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": null,
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"pathVariables": {}
+		},
+		{
+			"id": "305558c0-ca4f-43fd-b735-75f41699d560",
+			"name": "DELETE ​/store​/order​/{orderId} ( Delete purchase order by ID)",
+			"url": "https://petstore.swagger.io/v2/store/order/1",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": null,
+			"method": "DELETE",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "7688b76a-0ebc-45cd-bb36-912f60b63b8d",
+			"name": "POST ​/store​/order (Place an order for a pet)",
+			"url": "https://petstore.swagger.io/v2/store/order",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": [],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"rawModeData": "{\r\n  \"id\": 1,\r\n  \"petId\": 1,\r\n  \"quantity\": 10,\r\n  \"shipDate\": \"2020-12-08T04:28:10.535Z\",\r\n  \"status\": \"placed\",\r\n  \"complete\": true\r\n}",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "cf622838-ac0c-4bf8-9309-8202f9c7744a",
+			"name": "GET ​/store​/inventory ( Returns pet inventories by status)",
+			"url": "https://petstore.swagger.io/v2/store/inventory",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": null,
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"pathVariables": {}
+		}
+	]
+}

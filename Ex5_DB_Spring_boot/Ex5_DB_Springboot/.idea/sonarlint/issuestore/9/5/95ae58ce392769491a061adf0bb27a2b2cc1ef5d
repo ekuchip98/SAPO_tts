@@ -1,0 +1,17 @@
+
+A
+java:S2629H"$Invoke method(s) only conditionally.(“‘îË8Õ††Ï‰.
+c
+java:S3457<"AFormat specifiers should be used instead of string concatenation.(®µ˚ı˛ˇˇˇˇ8∏Å†Ï‰.
+m
+java:S3457D"Q%n should be used in place of \n to produce the platform-specific line separator.(ûÄÿ?8Õ††Ï‰.
+n
+java:S3457H"Q%n should be used in place of \n to produce the platform-specific line separator.(“‘îË8Õ††Ï‰.
+@
+java:S2629D"$Invoke method(s) only conditionally.(ûÄÿ?8Õ††Ï‰.
+W
+java:S1117L":Rename "logger" which hides the field declared at line 15.(î…–•8Õ††Ï‰.
+Y
+java:S2629<"7Use the built-in formatting to construct this argument.(®µ˚ı˛ˇˇˇˇ8∏Å†Ï‰.
+_
+java:S1226k"BIntroduce a new variable instead of reusing the parameter "inPut".(¶…©˜8ıæ§Ï‰.

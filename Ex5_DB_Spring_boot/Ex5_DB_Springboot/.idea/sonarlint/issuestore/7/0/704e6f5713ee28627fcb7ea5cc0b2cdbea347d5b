@@ -1,0 +1,7 @@
+
+q
+java:S2229?"T"findAll's" @Transactional requirement is incompatible with the one for this method.(¢Êå”8Æû…êä.
+
+java:S11493"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(îºªâúÿÿÿÿ8€‹³Óä.
+|
+java:S1149*"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ÖûÖ£8´ßïÒä.

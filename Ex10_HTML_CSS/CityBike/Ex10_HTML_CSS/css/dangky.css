@@ -1,0 +1,79 @@
+.section-dky {
+  background-color: #fbf9f9;
+  padding: 20px 0;
+}
+
+.section-dky h2 {
+  margin-bottom: 20px;
+}
+
+.section-dky .btn-ok button {
+  border: none;
+  padding: 10px 40px;
+  margin-right: 10px;
+}
+
+.section-dky .btn-ok .dky {
+  background-color: #fec722;
+  color: black;
+}
+
+.section-dky .btn-ok .ql {
+  background-color: black;
+  color: white;
+}
+
+.section-dky .section-link .home {
+  padding-right: 10px;
+  border-right: 1px solid;
+}
+
+.section-dky .section-link .home a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #000;
+}
+
+.section-dky .section-link .dky a {
+  padding-left: 5px;
+  text-decoration: none;
+  font-size: 13px;
+  color: #fec722;
+}
+
+.section-dky .content {
+  margin-top: 30px;
+}
+
+.section-dky .content .info-mysel label {
+  font-size: 13px;
+}
+
+.section-dky .content .info-mysel label span {
+  color: red;
+}
+
+.section-dky .content .info-mysel input {
+  padding: 16px;
+}
+
+.section-dky .content .info-mysel .checkbox {
+  margin: 20px 0;
+}
+
+.section-dky .content .info-account {
+  margin-top: 20px;
+}
+
+.section-dky .content .info-account label {
+  font-size: 13px;
+}
+
+.section-dky .content .info-account label span {
+  color: red;
+}
+
+.section-dky .content .info-account input {
+  padding: 16px;
+}
+/*# sourceMappingURL=dangky.css.map */

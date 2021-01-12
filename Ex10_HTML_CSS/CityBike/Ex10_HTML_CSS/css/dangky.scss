@@ -1,0 +1,76 @@
+.section-dky{
+    background-color: #fbf9f9;
+    padding: 20px 0;
+    h2{
+        margin-bottom: 20px;
+    }
+    .btn-ok{
+        button{
+            border: none;
+            padding: 10px 40px;
+            margin-right: 10px;
+        }
+        .dky{
+            background-color: #fec722;
+            color: black;
+        }
+        .ql{
+            background-color: black;
+            color: white;
+        }
+    }
+    .section-link{
+        .home{
+            
+            padding-right: 10px ;
+            border-right: 1px solid;
+            a{
+                text-decoration: none;  
+                font-size: 13px;
+                color: #000;
+            }
+        }
+        .dky{
+            a{
+                padding-left: 5px;
+                text-decoration: none;
+                font-size: 13px;
+                color: #fec722;
+            }
+        }
+    }
+    .content{
+        margin-top: 30px;
+        
+        .info-mysel{
+
+            label{
+                font-size: 13px;
+                span{
+                    color: red;
+                }
+            }
+            input{
+                padding: 16px;
+            }
+            .checkbox{
+                
+                margin: 20px 0;
+            }
+
+        }
+        .info-account{
+            margin-top: 20px;
+            label{
+                font-size: 13px;
+                span{
+                    color: red;
+                }
+            }
+            input{
+                padding: 16px;
+            }
+
+        }
+    }
+}
