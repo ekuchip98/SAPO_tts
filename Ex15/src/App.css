@@ -1,0 +1,70 @@
+
+.mycontent{
+  font-size: 14px;
+  width: 1000px;
+  margin: 20px auto;
+  display: flex;
+}
+
+.item-cate {
+  font-size: 14px;
+  width: 200px;
+  margin-left: 50px;
+}
+
+.item-cate ul {
+  margin: 0;
+  padding: 0;
+}
+
+.item-cate ul li {
+  font-size: 14px;
+  background-color: black;
+  color: white;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  list-style: none;
+  font-weight: bold;
+  font-size: 14px;
+  border: 1px solid;
+}
+
+.item-cate ul li:hover {
+  background-color: greenyellow;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  color: black;
+}
+
+.mytable {
+  font-size: 14px;
+  margin-left: 30px;
+  width: 500px;
+}
+
+.mytable tr th, .mytable tr td {
+  font-size: 14px;
+  border: 2px solid;
+}
+
+.mytable tr td {
+  font-size: 14px;
+  width: 70%;
+  text-align: center;
+}
+.ex1{
+  cursor: pointer;
+  background-color: white;
+  font-size: 14px;
+  margin-top: 20px;
+}
+.sl-limit{
+  font-size: 14px;
+}
+#btn-update{
+  display: none;
+}
+#btn-update1{
+  display: inline-block;
+}
