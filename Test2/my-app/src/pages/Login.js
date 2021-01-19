@@ -2,19 +2,37 @@
 import { Form, Button } from 'react-bootstrap';
 import React, { useState, useContext } from 'react';
 import { authContext } from '../Utils/AuthContext';
+import axios from 'axios';
 
 const Login = ({ history }) => {
-  const [email, setEmail] = useState();
+  const [username, setUsername] = useState();
   const [password, setPassword] = useState();
   const { setAuthData } = useContext(authContext);
 
+  async function callApiLogin() {
+    try {
+      const data = {
+        username, password
+      };
+      await axios
+        .post('/api/login', data)
+        .then(res => {
+          setAuthData(res.data.accessToken);
+        })
+        .then(result => {
+          history.push('/dashboard');
+        })
+        .catch(err => {
+          console.log(err)
+        });
+    } catch (error) {
+      localStorage.clear();
+    }
+  }
+
   const onFormSubmit = e => {
     e.preventDefault();
-    console.log(email);
-    console.log(password);
-    setAuthData(email);
-    history.replace('/');
-    // we will change it later;
+    callApiLogin();
   };
   return (
     <div
@@ -23,14 +41,14 @@ const Login = ({ history }) => {
     >
       <div style={{ width: 300 }}>
         <h1 className="text-center">Sign in</h1>
-        <Form onSubmit={onFormSubmit}>
+        <Form>
           <Form.Group>
             <Form.Label>Email address</Form.Label>
             <Form.Control
               type="text"
               placeholder="Enter email"
               onChange={e => {
-                setEmail(e.target.value);
+                setUsername(e.target.value);
               }}
             />
           </Form.Group>
@@ -47,8 +65,9 @@ const Login = ({ history }) => {
           </Form.Group>
           <Button
             variant="primary"
-            type="submit"
+            type="button"
             className="w-100 mt-3"
+            onClick={onFormSubmit}
           >
             Login
           </Button>

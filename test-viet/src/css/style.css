@@ -1,0 +1,658 @@
+#root {
+  font-size: 14px;
+  color: #603913;
+  overflow-x: hidden;
+  font-family: "Roboto Slab", "HelveticaNeue", "Helvetica Neue", sans-serif;
+}
+
+#root a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+#root a:hover {
+  color: #f2b94c;
+  text-decoration: inherit;
+}
+
+@media (min-width: 768px) {
+  #root .container {
+    max-width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  #root .container {
+    max-width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #root .container {
+    max-width: 1190px;
+  }
+}
+
+@media (min-width: 1230px) {
+  #root .container {
+    max-width: 1170px;
+  }
+}
+
+@media (max-width: 991px) {
+  #root .center-base {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+#root ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#root .section-top {
+  line-height: 60px;
+  color: #603913;
+  background: #fdfaf5;
+}
+
+#root .section-top .top-bar {
+  background: url("../BigFood/top-bar.png") repeat-x bottom left;
+}
+
+#root .section-top span {
+  display: inline-block;
+  padding: 0;
+  line-height: 60px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+#root .menu-item {
+  margin-left: 15px;
+  color: #603913;
+  font-size: 13px;
+  padding-left: 20px;
+  font-weight: 300;
+}
+
+#root .header {
+  position: relative;
+  background: #fdfaf5;
+}
+
+#root .header .mid_header {
+  padding: 30px 0;
+  height: 160px;
+}
+
+#root .header .mid_header .logo {
+  margin-top: 20px;
+}
+
+#root .header .mid_header .static {
+  margin: 20px 0 0 30px;
+  width: 270px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#root .header .mid_header .static .static-icon {
+  width: 60px;
+  background: #f2b94c;
+  color: #fff;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#root .header .mid_header .static .static-content {
+  padding: 10px 0 10px 10px;
+}
+
+#root .header .mid_header .static .static-content .static-title {
+  text-transform: uppercase;
+  color: #c69c6d;
+  margin-top: 10px;
+  display: block;
+  font-family: "Roboto Slab", "HelveticaNeue", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+}
+
+#root .header .mid_header .static .static-content .static-info {
+  font-size: 18px;
+  color: #603913;
+  font-weight: 300;
+}
+
+#root .header-menu {
+  height: 70px;
+  padding-top: 10px;
+  position: relative;
+  background: #fdfaf5;
+}
+
+#root .header-menu .item-big {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#root .header-menu .item-big .nav-item {
+  margin-right: 5%;
+  list-style-type: none;
+  text-align: left;
+}
+
+#root .header-menu .item-big .nav-item a {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #603913;
+  font-family: inherit;
+}
+
+#root .header-menu .item-big .nav-item a:hover {
+  color: #f2b94c;
+}
+
+#root .header-menu .item-big .nav-item .dropdown-toggle ::after {
+  content: "";
+  margin-left: 10px;
+}
+
+#root .header-menu .header-right {
+  text-align: right;
+  font-size: 16px;
+}
+
+#root .header-menu .header-right .top-cart {
+  margin-left: 20%;
+  margin-right: 15px;
+}
+
+#root .header-menu .header-right .top-cart .count-item {
+  position: absolute;
+  right: 15px;
+  top: -15px;
+  min-width: 25px;
+  min-height: 25px;
+  padding: 0 2px;
+  line-height: 25px;
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+  background: #f2b94c;
+  border-radius: 50%;
+}
+
+#root .awe-section-1 {
+  position: relative;
+}
+
+#root .awe-section-1 .carousel-control-prev-icon {
+  position: absolute;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  background: url("../BigFood/PSD/previous-slide.jpg");
+}
+
+#root .awe-section-1 .carousel-control-next-icon {
+  position: absolute;
+  right: 0;
+  width: 100px;
+  height: 100px;
+  background: url("../BigFood/PSD/next-slide.jpg");
+}
+
+#root .dropdown-item {
+  font-size: 14px;
+  line-height: 10px;
+  padding-left: 5%;
+}
+
+#root .img-effect {
+  overflow: hidden;
+}
+
+#root .section-banner {
+  margin-top: 30px;
+}
+
+#root .section-banner .banner_effect {
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+#root .section-banner .banner_effect img .loaded {
+  width: auto;
+  height: auto;
+}
+
+#root .section-banner .banner_effect img:hover {
+  color: #f2b94c;
+  text-decoration: none;
+}
+
+#root .awe-section-2 {
+  margin-top: 15px;
+}
+
+#root .awe-section-2 .h2 {
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 0 20px;
+  line-height: 40px;
+  margin: 0;
+  text-transform: uppercase;
+  width: 100%;
+  letter-spacing: 0;
+}
+
+#root .awe-section-2 .h2 a {
+  color: #fff;
+}
+
+#root .awe-section-2 .aside-article {
+  background: url("../images/bg-title.jpg") repeat-x center left #c69c6d;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+#root .awe-section-2 .side-bar-category {
+  margin-bottom: 20px;
+}
+
+#root .awe-section-2 .side-bar-category .aside-content ul {
+  list-style-type: none;
+  text-align: left;
+  padding: 0;
+}
+
+#root .awe-section-2 .side-bar-category .aside-content ul a {
+  font-size: 14px;
+  font-family: inherit;
+  color: #c69c6d;
+  font-weight: 400;
+  line-height: 1.7;
+  padding: 10px 0;
+  border-bottom: 1px solid #f0ebe2;
+}
+
+#root .awe-section-2 .aside-mini-list-product .product-item {
+  border-bottom: solid 1px #ddd;
+  margin-bottom: 15px;
+  padding: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#root .awe-section-2 .aside-mini-list-product .product-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+#root .awe-section-2 .aside-mini-list-product .product-item .product-image {
+  width: 32%;
+}
+
+#root .awe-section-2 .aside-mini-list-product .product-item .product-image .img-thumb {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+#root .awe-section-2 .aside-mini-list-product .product-item .product-shop {
+  margin-left: 10px;
+}
+
+#root .awe-section-2 .aside-mini-list-product .product-item .product-shop .product-name {
+  font-size: 14px;
+  font-family: inherit;
+}
+
+#root .awe-section-2 .aside-mini-list-product .product-item .product-shop .product-price {
+  margin-bottom: 20px;
+}
+
+#root .awe-section-2 .aside-mini-list-product .product-item .product-shop .product-price .special-price {
+  color: #c69c6d;
+  font-size: 14px;
+  font-family: inherit;
+  font-weight: 400;
+}
+
+#root .awe-section-2 .best-sale {
+  position: relative;
+}
+
+#root .awe-section-2 .best-sale .owl-nav {
+  position: absolute;
+  top: -75px;
+  right: 10px;
+  color: #fff;
+}
+
+#root .awe-section-2 .best-sale .best-sale-banner {
+  margin-bottom: 40px;
+}
+
+#root .awe-section-2 .best-sale .product_index_banner {
+  margin-bottom: 40px;
+}
+
+#root .awe-section-2 .main-product {
+  padding: 10px 0;
+}
+
+#root .awe-section-2 .main-product .title-module-main {
+  width: 100%;
+  background: url("../images/bg-title.jpg") repeat #c69c6d;
+  height: 40px;
+  margin-bottom: 30px;
+}
+
+#root .awe-section-2 .main-product .product-box {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#root .awe-section-2 .main-product .product-box .product-thumbnail {
+  position: relative;
+}
+
+#root .awe-section-2 .main-product .product-box .product-thumbnail .img-responsive {
+  opacity: 1;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+#root .awe-section-2 .main-product .product-box .product-thumbnail .overlay-img {
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#root .awe-section-2 .main-product .product-box .product-thumbnail .overlay-img .bt-buy {
+  height: 40px;
+  border: #f2b94c 1px solid;
+  width: 135px;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 5px;
+  background: #f2b94c;
+}
+
+#root .awe-section-2 .main-product .product-box:hover .img-responsive {
+  opacity: 0.5;
+}
+
+#root .awe-section-2 .main-product .product-box:hover .overlay-img {
+  opacity: 1;
+}
+
+#root .awe-section-2 .main-product .product-box .product-info {
+  text-align: center;
+  min-height: 99px;
+  margin-top: 10px;
+}
+
+#root .awe-section-2 .main-product .product-box .product-info .block-price {
+  min-height: 20px;
+}
+
+#root .awe-section-2 .main-product .product-box .product-info .block-price .product-price {
+  font-size: 14px;
+  font-family: inherit;
+  color: #c69c6d;
+  font-weight: 400;
+  line-height: 20px;
+  margin-right: 10px;
+}
+
+#root .awe-section-2 .main-product .product-box .product-info .product-name {
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0 0 5px;
+  overflow: hidden;
+  line-height: 22px;
+  padding: 10px 15px 0;
+}
+
+#root .awe-section-2 .main-product .product-box .product-info .product-rate {
+  font-size: 12px;
+  font-style: italic;
+  color: #c69c6d;
+}
+
+#root .awe-section-2 .main-product .aside-mini-list-product {
+  margin-bottom: 20px;
+}
+
+#root .awe-section-3 h2 {
+  font-size: 14px;
+  padding: 10px 0 20px 10px;
+  margin: 0;
+  text-transform: uppercase;
+  width: 100%;
+  letter-spacing: 0;
+  border-bottom: #f6f3ee 1px solid;
+}
+
+#root .awe-section-3 .list-brand {
+  position: relative;
+}
+
+#root .awe-section-3 .list-brand .owl-nav .owl-prev {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  text-align: center;
+  line-height: 18px;
+  font-size: 18px;
+  color: #c69c6d;
+  background: transparent;
+  border: 1px solid #fff;
+}
+
+#root .awe-section-3 .list-brand .owl-nav .owl-next {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  right: 0;
+  line-height: 18px;
+  font-size: 18px;
+  color: #c69c6d;
+  background: transparent;
+  border: 1px solid #fff;
+}
+
+#root .footer {
+  margin-top: 50px;
+  background: url("../BigFood/footer-theme.jpg") repeat-x top left #f8f1e4;
+}
+
+#root .footer .mid-footer {
+  padding-top: 60px;
+}
+
+#root .footer .last-footer {
+  margin-bottom: 30px;
+}
+
+#root .footer .last-footer .contact-footer {
+  text-align: center;
+}
+
+#root .footer .last-footer .contact-footer .title-contact {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+#root .footer .last-footer .contact-footer .address {
+  line-height: 22px;
+  font-weight: 300;
+}
+
+#root .footer .title-menu {
+  margin: 0;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  font-size: 14px;
+  color: #603913;
+  position: relative;
+  text-transform: uppercase;
+}
+
+#root .footer .collapse-list {
+  margin-top: 15px;
+  display: inline-block;
+}
+
+#root .footer .collapse-list .list-menu {
+  line-height: 35px;
+}
+
+#root .footer .collapse-list .list-menu .li-menu {
+  font-size: 14px;
+  line-height: 28px;
+}
+
+#root .footer .content-search {
+  margin-top: 35px;
+  width: 100%;
+  font-weight: 300;
+}
+
+#root .footer .search-bar {
+  position: relative;
+  margin-top: 20px;
+}
+
+#root .footer .search-bar form input {
+  padding: 10px 50px 10px 20px;
+  width: 100%;
+  margin-bottom: 10px;
+  color: #c69c6d;
+  font-weight: 300;
+  border: 1px solid #fff;
+  background: #fff;
+  outline: none;
+}
+
+#root .footer .search-bar form button {
+  position: absolute;
+  bottom: 13px;
+  padding: 8px 20px;
+  right: 0;
+  background: #fff;
+  color: #333;
+  border: 0;
+  outline: 0;
+}
+
+#root .footer .social-footer {
+  margin-bottom: 70px;
+}
+
+#root .footer .social-footer .follow-option {
+  margin-top: 15px;
+}
+
+#root .footer .social-footer .follow-option li {
+  margin-right: 5px;
+}
+
+#root .footer .social-footer .follow-option a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 29px;
+  color: #fff;
+}
+
+#root .footer .social-footer .follow-option .facebook {
+  background: #3B5998;
+}
+
+#root .footer .social-footer .follow-option .twitter {
+  background: #55ACEE;
+}
+
+#root .footer .social-footer .follow-option .google {
+  background: #dd4b39;
+}
+
+#root .footer .social-footer .follow-option .instagram {
+  background: #a47c60;
+}
+
+#root .footer .social-footer .follow-option .vimeo {
+  background: #5eb5e5;
+}
+
+#root .footer .social-footer .follow-option .rss {
+  background: #f3b73f;
+}
+
+#root .footer .social-footer .follow-option .youtube {
+  background: #fe0000;
+}
+
+#root .footer .footer-bottom {
+  background: url("../BigFood/top-bar.png") repeat-x;
+  line-height: 80px;
+}
+
+#root .footer .footer-bottom b {
+  color: #f2b94c;
+  font-weight: 300;
+}
+
+#root .footer .footer-bottom .payment {
+  text-align: right;
+}
+
+@media (max-width: 992px) {
+  #root .header .mid_header .logo {
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=style.css.map */

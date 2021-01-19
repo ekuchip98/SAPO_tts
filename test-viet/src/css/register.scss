@@ -1,0 +1,190 @@
+#root{
+    .breadcrumb_background {
+        background-image: url("../BigFood/JPG/register-background.jpg");
+        background-size: cover;
+        padding: 90px 0px;
+        background-repeat: no-repeat;
+        width: 100%;
+        float: left;
+        position: relative;
+    }
+    
+    .a-center {
+        text-align: center;
+    
+        .title_page {
+            color: #fff;
+            margin: 0;
+            text-transform: unset;
+            text-align: center;
+            font-size: 60px;
+            line-height: normal;
+            font-weight: 400;
+        }
+    }
+    
+    .bread-crumb {
+        .breadcrumb {
+            font-family: inherit;
+            margin: 0;
+            font-size: 14px;
+            background-color: #fff;
+            width: 100%;
+            text-align: left;
+            padding: 20px 0;
+            margin-bottom: 30px;
+            border-bottom: #ebebeb 1px solid;
+            strong{
+                color: #dac0a6;
+                font-weight: 500;
+            }
+        }
+    }
+    
+    .wrap_background {
+        .title-head {
+            // color: #f2b94c;
+            text-transform: uppercase;
+            font-size: 18px;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+    
+        .email-checkbox{
+            margin-top: 15px;
+            margin-bottom: 45px;
+            label{
+                font-style: italic ;
+                font-weight: bold;
+                margin-left: 5px;
+            }
+        }
+    
+        .form-signup {
+            margin-top: 35px;
+    
+            .form-group {
+                padding-bottom: 8px;
+    
+                label {
+                    margin-top: 0px;
+                    font-weight: 600;
+    
+                    span {
+                        color: #ff0000;
+                    }
+                }
+    
+                input {
+                    height: 40px;
+                    padding: 0 20px;
+                    color: #636363;
+                    border-color: #eaebf3;
+                    box-shadow: none;
+    
+                    &::-webkit-input-placeholder {
+                        color: #acacac
+                    }
+    
+                    ;
+    
+                    &::-moz-placeholder {
+                        color: #acacac
+                    }
+    
+                    ;
+    
+                    &:-ms-input-placeholder {
+                        color: #acacac
+                    }
+    
+                    ;
+    
+                }
+    
+                textarea {
+                    box-shadow: none;
+                    border-color: #eaebf3;
+                }
+            }
+    
+            .btn-lienhe {
+                font-size: 14px;
+                font-weight: 400;
+                text-transform: none;
+            }
+    
+            .bt-back {
+                background: #c69c6d;
+                border-radius: 0;
+                padding: 10px 20px;
+    
+                &:hover {
+                    background: #fff;
+                    color: #f2b94c;
+                    border: 1px solid #f2b94c;
+                }
+            }
+            
+            .text-upper {
+                width: 150px;
+                height: 45px;
+                font-size: 12px;
+                font-weight: bold;
+            }
+    
+            .accept_submit {
+                span {
+                    font-size: 15px;
+                    color: #111111;
+                }
+    
+                margin-left:20px;
+                margin-top: 10px;
+            }
+    
+            .button-50 {
+                font-size: 16px;
+                line-height: 50px;
+                width: 50%;
+            }
+    
+            .have_ac {
+                font-size: 15px;
+                color: #111111;
+                margin-left: 15px;
+    
+                a {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    
+    .required {
+        content: "*";
+        color: red;
+        display: inline;
+    }
+    
+    .btn.btn-primary {
+        border-radius: 0;
+        padding: 10px 20px;
+        border: 1px solid #c69c6d;
+    }
+    
+    @mixin bt($i){
+        @if ($i == 1){
+            background: #c69c6d;
+        }
+        @else if ($i == 2){
+            background: #f2b94c;
+        }
+    }
+    
+    @for $i from 1 through 2 {
+        .btn.btn-primary.bt#{$i} {
+            @include bt($i);
+        }
+    }
+}

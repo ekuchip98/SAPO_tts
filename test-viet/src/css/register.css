@@ -1,0 +1,174 @@
+#root .breadcrumb_background {
+  background-image: url("../BigFood/JPG/register-background.jpg");
+  background-size: cover;
+  padding: 90px 0px;
+  background-repeat: no-repeat;
+  width: 100%;
+  float: left;
+  position: relative;
+}
+
+#root .a-center {
+  text-align: center;
+}
+
+#root .a-center .title_page {
+  color: #fff;
+  margin: 0;
+  text-transform: unset;
+  text-align: center;
+  font-size: 60px;
+  line-height: normal;
+  font-weight: 400;
+}
+
+#root .bread-crumb .breadcrumb {
+  font-family: inherit;
+  margin: 0;
+  font-size: 14px;
+  background-color: #fff;
+  width: 100%;
+  text-align: left;
+  padding: 20px 0;
+  margin-bottom: 30px;
+  border-bottom: #ebebeb 1px solid;
+}
+
+#root .bread-crumb .breadcrumb strong {
+  color: #dac0a6;
+  font-weight: 500;
+}
+
+#root .wrap_background .title-head {
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+#root .wrap_background .email-checkbox {
+  margin-top: 15px;
+  margin-bottom: 45px;
+}
+
+#root .wrap_background .email-checkbox label {
+  font-style: italic;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+#root .wrap_background .form-signup {
+  margin-top: 35px;
+}
+
+#root .wrap_background .form-signup .form-group {
+  padding-bottom: 8px;
+}
+
+#root .wrap_background .form-signup .form-group label {
+  margin-top: 0px;
+  font-weight: 600;
+}
+
+#root .wrap_background .form-signup .form-group label span {
+  color: #ff0000;
+}
+
+#root .wrap_background .form-signup .form-group input {
+  height: 40px;
+  padding: 0 20px;
+  color: #636363;
+  border-color: #eaebf3;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#root .wrap_background .form-signup .form-group input::-webkit-input-placeholder {
+  color: #acacac;
+}
+
+#root .wrap_background .form-signup .form-group input::-moz-placeholder {
+  color: #acacac;
+}
+
+#root .wrap_background .form-signup .form-group input:-ms-input-placeholder {
+  color: #acacac;
+}
+
+#root .wrap_background .form-signup .form-group textarea {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-color: #eaebf3;
+}
+
+#root .wrap_background .form-signup .btn-lienhe {
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: none;
+}
+
+#root .wrap_background .form-signup .bt-back {
+  background: #c69c6d;
+  border-radius: 0;
+  padding: 10px 20px;
+}
+
+#root .wrap_background .form-signup .bt-back:hover {
+  background: #fff;
+  color: #f2b94c;
+  border: 1px solid #f2b94c;
+}
+
+#root .wrap_background .form-signup .text-upper {
+  width: 150px;
+  height: 45px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#root .wrap_background .form-signup .accept_submit {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+#root .wrap_background .form-signup .accept_submit span {
+  font-size: 15px;
+  color: #111111;
+}
+
+#root .wrap_background .form-signup .button-50 {
+  font-size: 16px;
+  line-height: 50px;
+  width: 50%;
+}
+
+#root .wrap_background .form-signup .have_ac {
+  font-size: 15px;
+  color: #111111;
+  margin-left: 15px;
+}
+
+#root .wrap_background .form-signup .have_ac a {
+  text-decoration: underline;
+}
+
+#root .required {
+  content: "*";
+  color: red;
+  display: inline;
+}
+
+#root .btn.btn-primary {
+  border-radius: 0;
+  padding: 10px 20px;
+  border: 1px solid #c69c6d;
+}
+
+#root .btn.btn-primary.bt1 {
+  background: #c69c6d;
+}
+
+#root .btn.btn-primary.bt2 {
+  background: #f2b94c;
+}
+/*# sourceMappingURL=register.css.map */
