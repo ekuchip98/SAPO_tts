@@ -10,24 +10,20 @@ const Login = ({ history }) => {
   const { setAuthData } = useContext(authContext);
 
   async function callApiLogin() {
-    try {
-      const data = {
-        username, password
-      };
-      await axios
-        .post('/api/login', data)
-        .then(res => {
-          setAuthData(res.data.accessToken);
-        })
-        .then(result => {
+    const data = {
+      username, password
+    };
+    await axios
+      .post('/api/login', data)
+      .then(res => {
+        setAuthData(res.data.accessToken);
+        if (res.status.ok) {
           history.push('/dashboard');
-        })
-        .catch(err => {
-          console.log(err)
-        });
-    } catch (error) {
-      localStorage.clear();
-    }
+        }
+      })
+      .catch(err => {
+        console.log(err.response.statusText)
+      });
   }
 
   const onFormSubmit = e => {
