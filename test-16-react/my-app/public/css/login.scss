@@ -16,6 +16,7 @@
             }
         }
         .login{
+            outline: none;
             a{
                 padding-left: 5px;
                 text-decoration: none;
@@ -46,10 +47,12 @@
                 margin-right: 10px;
             }
             .login{
+                outline: none;
                 background-color: #ffc82e;
                 color: black;
             }
             .ql{
+                outline: none;
                 background-color: black;
                 color: white;
             }

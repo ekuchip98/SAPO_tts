@@ -1,7 +1,24 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+
+CategoryItem.propTypes = {
+    onClickShow: PropTypes.func,
+};
+CategoryItem.defaultProps = {
+    onClickShow: null,
+}
 
 function CategoryItem(props) {
-    return <li className="item-li" onClick={this.props.onClickShow}>{this.props.name}</li>
+
+    const { onClickShow } = props;
+    const handleShow = () => {
+        if (onClickShow) {
+            onClickShow();
+        }
+    }
+    return (
+        <li className="item-li" onClick={handleShow}>{props.name}</li>
+    );
 }
 
 export default CategoryItem;

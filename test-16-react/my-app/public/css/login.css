@@ -22,6 +22,10 @@
   color: #000;
 }
 
+.section-login .section-link .login {
+  outline: none;
+}
+
 .section-login .section-link .login a {
   padding-left: 5px;
   text-decoration: none;
@@ -56,11 +60,13 @@
 }
 
 .section-login .login-form .btn-ok .login {
+  outline: none;
   background-color: #ffc82e;
   color: black;
 }
 
 .section-login .login-form .btn-ok .ql {
+  outline: none;
   background-color: black;
   color: white;
 }

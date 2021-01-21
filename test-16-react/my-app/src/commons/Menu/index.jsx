@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Menu() {
     return (
@@ -7,7 +8,7 @@ function Menu() {
                 <div className="header-nav">
                     <ul className="item_big d-flex justify-content-start">
                         <li className="nav-item active ">
-                            <a href="/" title="Home"> <i className="fa fa-home" />Home</a>
+                            <Link to="/" title="Home"> <i className="fa fa-home" />Home</Link>
                         </li>
                         <li className="nav-item menu-product">
                             <a href="a" title="Sản phẩm">Sản phẩm<i className="fa fa-caret-down" /></a>

@@ -1,7 +1,6 @@
 import React, { useContext } from 'react';
-import { authContext } from '../utils/AuthContext';
+import { authContext } from '../../utils/AuthContext';
 import { Link } from 'react-router-dom';
-
 function Header() {
     const { setAuthData, auth } = useContext(authContext);
 
@@ -26,7 +25,7 @@ function Header() {
                 <span style={{ color: '#fff' }}>Xin chào, {user}</span>
             </div>
             <div className="account-login">
-                <button onClick={handleLogout}>Đăng xuất</button>
+                <button style={{ outline: 'none', border: 'none', backgroundColor: '#363533', color: '#8b8b89', paddingLeft: '10px' }} onClick={handleLogout}>Đăng xuất</button>
             </div>
         </div>);
     }
@@ -56,7 +55,7 @@ function Header() {
                     <div className="row">
                         <div className="col-lg-3">
                             <div className="logo">
-                                <a href="/"><img src={window.location.origin + "/images/logo/logo1.png"} alt="logo" /></a>
+                                <Link to="/"><img src={window.location.origin + "/images/logo/logo1.png"} alt="logo" /></Link>
                             </div>
                         </div>
                         <div className="col-lg-6">

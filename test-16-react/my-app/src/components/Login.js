@@ -1,73 +1,73 @@
-import React, { Component } from 'react';
+import React, { useState, useContext } from 'react';
 import { authContext } from '../utils/AuthContext';
-class Login extends Component {
+import axios from 'axios';
+import { Link } from 'react-router-dom';
 
-    static contextType = authContext;
-    constructor(props) {
-        super(props);
-        this.state = {
-            email: '',
-            password: '',
-            error: '',
-            status: 1
-        };
-        this.handleLogin = this.handleLogin.bind(this);
-        this.handleChange = this.handleChange.bind(this);
-    }
+function Login(props) {
+    const [account, setAccount] = useState({
+        username: '',
+        password: '',
+    });
 
-    handleChange(event) {
+
+    const { setAuthData } = useContext(authContext);
+
+    function handleChange(event) {
         var target = event.target;
         var name = target.name;
         var value = target.value;
-        this.setState({
-            [name]: value
+        setAccount({
+            ...account,
+            [name]: value,
         });
     }
 
-    handleLogin(event) {
-        if (this.state.email === 'admin') {
-            if (this.state.password === '123') {
-                this.context.setAuthData(this.state.email, "OK");
-                this.props.history.replace('/category-list');
-            } else {
-                alert('Sai Password !');
-            }
-        } else {
-            alert("Sai email or password !");
-        }
-        event.preventDefault();
+    async function callApiLogin() {
+        const data = account;
+        await axios
+            .post('/api/login', data)
+            .then(res => {
+                setAuthData(data.username, res.data.accessToken);
+                if (res.status.ok) {
+                    props.history.push('/category-list');
+                }
+            })
+            .catch(err => {
+                alert("Đăng nhập thất bại ! " + err.response.statusText);
+            });
     }
 
-    render() {
-        return (
-            <section className="section-login">
-                <div className="container">
-                    <div className="section-link">
-                        <span className="home"><a href="/">Trang chủ</a></span>
-                        <span className="login"><a href="/login">Đăng nhập</a></span>
-                    </div>
-                    <div className="login-form">
-                        <h3>Đăng nhập</h3>
-                        <form action="" method='post'>
-                            <div className="form-group">
-                                <label >Địa chỉ email <span>*</span></label>
-                                <input type="text" className="form-control" required name="email" onChange={this.handleChange} />
-                            </div>
-                            <div className="form-group">
-                                <label >Password <span>*</span></label>
-                                <input type="password" name="password" required onChange={this.handleChange} className="form-control" />
-                            </div>
-                            <div className="btn-ok">
-                                <button type="submit" onClick={this.handleLogin} className="login">Đăng nhập</button>
-                                <button type="button" className="ql">Quay lại</button>
-                            </div>
-                            {/* <span id="error" style={{ color: 'red' }}>{this.state.error}</span> */}
-                        </form>
-                    </div>
-                </div>
-            </section>
-        );
+    function handleLogin(event) {
+        callApiLogin();
+        event.preventDefault();
     }
+    return (
+        <section className="section-login">
+            <div className="container">
+                <div className="section-link">
+                    <span className="home"><Link to="/">Trang chủ</Link></span>
+                    <span className="login"><Link to="/login">Đăng nhập</Link></span>
+                </div>
+                <div className="login-form">
+                    <h3>Đăng nhập</h3>
+                    <form action="" method='post'>
+                        <div className="form-group">
+                            <label >Tài khoản <span>*</span></label>
+                            <input type="text" className="form-control" required name="username" onChange={handleChange} />
+                        </div>
+                        <div className="form-group">
+                            <label >Mật khẩu <span>*</span></label>
+                            <input type="password" name="password" required onChange={handleChange} className="form-control" />
+                        </div>
+                        <div className="btn-ok">
+                            <button type="button" onClick={handleLogin} className="login">Đăng nhập</button>
+                            <button type="button" className="ql"><Link to="/" style={{ color: '#fff', textDecoration: 'none' }}>Quay lại</Link></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    );
 }
-Login.contextType = authContext;
+
 export default Login;
